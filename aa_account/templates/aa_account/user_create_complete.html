@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}
+    User registration
+{% endblock %}
+{% block content %}
+<p>
+    Registration is completed.<br>
+    Please login with registered email and password.<br>
+    <a class="btn btn-primary btn-lg" href="{% url 'aa_account:login' %}">Login</a>
+</p>
+{% endblock %}
